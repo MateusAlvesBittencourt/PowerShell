@@ -1,0 +1,2 @@
+Expand-Archive -Path "Y:\Applications\SQLDeveloper\setup.zip" -DestinationPath "C:\Program Files"
+New-Item -ItemType SymbolicLink -Path "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\SQL Developer" -Value "C:\Program Files\SQLDeveloper\sqldeveloper.exe"

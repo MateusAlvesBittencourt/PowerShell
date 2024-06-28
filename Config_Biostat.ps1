@@ -1,0 +1,1 @@
+New-Item -ItemType SymbolicLink -Path "C:\Users\Public\Desktop\BioStat 5" -Value "C:\Program Files (x86)\BioEstat 5.0\BioEstat.exe"

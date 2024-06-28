@@ -1,0 +1,2 @@
+Expand-Archive -Path "Y:\Applications\Ftool\setup.zip" -DestinationPath "C:\Program Files"
+New-Item -ItemType SymbolicLink -Path "C:\Users\Public\Desktop\Ftool" -Value "C:\Program Files\FTool\Ftool.exe"

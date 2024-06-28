@@ -1,0 +1,2 @@
+Expand-Archive -Path "Y:\Applications\SafePrint\setup.zip" -DestinationPath "C:\Program Files"
+Copy-Item -Path "C:\Program Files\SafePrint\sp.lnk" -Destination "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp" -Recurse -Force

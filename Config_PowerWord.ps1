@@ -1,0 +1,1 @@
+New-Item -ItemType SymbolicLink -Path "C:\Users\Public\Desktop\Power World" -Value "C:\Program Files\PowerWorld\Simulator Education-Evalution 23\pwrworld.exe"

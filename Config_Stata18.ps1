@@ -1,0 +1,2 @@
+Copy-Item -Path "Y:\Applications\Stata18\STATA.LIC" -Destination "C:\Program Files\Stata18" -Recurse -Force
+New-Item  -ItemType SymbolicLink -Path "C:\Users\Public\Desktop\StataBE 18" -Value "C:\Program Files\Stata18\StataBE-64.exe"

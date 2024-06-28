@@ -1,0 +1,3 @@
+Expand-Archive -Path "Y:\Applications\Godot\setup.zip" -DestinationPath "C:\Program Files"
+New-Item -ItemType SymbolicLink -Path "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Godot" -Value "C:\Program Files\Godot\Godot_v4.2.1-stable_win64.exe"
+New-Item -ItemType SymbolicLink -Path "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Godot (console)" -Value "C:\Program Files\Godot\Godot_v4.2.1-stable_win64_console.exe"

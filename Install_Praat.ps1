@@ -1,0 +1,2 @@
+Expand-Archive -Path "Y:\Applications\Praat\setup.zip" -DestinationPath "C:\Program Files"
+New-Item -ItemType SymbolicLink -Path "C:\Users\Public\Desktop\Praat" -Value "C:\Program Files\Praat\Praat.exe"

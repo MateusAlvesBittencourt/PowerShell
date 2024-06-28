@@ -1,0 +1,2 @@
+Expand-Archive -Path "Y:\Applications\Processing\setup.zip" -DestinationPath "C:\Program Files"
+New-Item -ItemType SymbolicLink -Path "C:\Users\Public\Desktop\Processing" -Value "C:\Program Files\processing\processing.exe"

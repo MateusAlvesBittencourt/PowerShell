@@ -1,0 +1,1 @@
+New-Item -ItemType SymbolicLink -Path "C:\Users\Public\Desktop\Energy Plus" -Value "C:\EnergyPlusV24-1-0\EP-Launch.exe"

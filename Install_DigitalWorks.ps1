@@ -1,0 +1,2 @@
+Expand-Archive -Path "Y:\Applications\DigitalWorks\setup.zip" -DestinationPath "C:\Program Files"
+New-Item -ItemType SymbolicLink -Path "C:\Users\Public\Desktop\DigitalWorks" -Value "C:\Program Files\Digital Works\DigitalWorks.exe"

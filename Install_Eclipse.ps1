@@ -1,0 +1,2 @@
+Expand-Archive -Path "Y:\Applications\Eclipse\setup.zip" -DestinationPath "C:\Program Files"
+New-Item -ItemType SymbolicLink -Path "C:\Users\Public\Desktop\Eclipse" -Value "C:\Program Files\Eclipse\eclipse.exe"

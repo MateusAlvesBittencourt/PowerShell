@@ -1,0 +1,8 @@
+Copy-Item -Path "Y:\Applications\Decision Tools\Palisade_Course.lic" -Destination "C:\Program Files (x86)\Palisade\System"
+New-Item -ItemType Directory -Path "C:\Users\Public\Desktop\Decision Tools"
+New-Item -ItemType SymbolicLink -Path "C:\Users\Public\Desktop\Decision Tools\TopRank" -Value "C:\Program Files (x86)\Palisade\TopRank8\TopRank.exe"
+New-Item -ItemType SymbolicLink -Path "C:\Users\Public\Desktop\Decision Tools\StatTools" -Value "C:\Program Files (x86)\Palisade\StatTools8\StatTools.exe"
+New-Item -ItemType SymbolicLink -Path "C:\Users\Public\Desktop\Decision Tools\Precision Tree" -Value "C:\Program Files (x86)\Palisade\PrecisionTree8\Ptree.exe"
+New-Item -ItemType SymbolicLink -Path "C:\Users\Public\Desktop\Decision Tools\Neural Tools" -Value "C:\Program Files (x86)\Palisade\NeuralTools8\NeuralTools.exe"
+New-Item -ItemType SymbolicLink -Path "C:\Users\Public\Desktop\Decision Tools\Evolver" -Value "C:\Program Files (x86)\Palisade\Evolver8\Evolver.exe"
+New-Item -ItemType SymbolicLink -Path "C:\Users\Public\Desktop\Decision Tools\Risk" -Value "C:\Program Files (x86)\Palisade\RISK8\Risk.exe"

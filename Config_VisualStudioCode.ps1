@@ -1,0 +1,1 @@
+Expand-Archive -Path "Y:\Applications\Visual Studio Code\extensions.zip" -DestinationPath "C:\Program Files\Microsoft VS Code\resources\app"

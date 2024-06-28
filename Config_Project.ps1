@@ -1,0 +1,1 @@
+New-Item -ItemType SymbolicLink -Path "C:\Users\Public\Desktop\Project" -Value "C:\Program Files (x86)\Microsoft Office\root\Office16\WINPROJ.EXE"
